@@ -36,6 +36,8 @@ class Scraper
       end
       profile_hash[:profile_quote] = page.css("div.profile-quote").text
       profile_hash[:bio] = page.css("div.description-holder p").text
+      
+      binding.pry
       profile_hash
     
   end
