@@ -23,6 +23,8 @@ class Scraper
     page = Nokogiri::HTML(open(profile_url))
     profile_hash ={}
     
+    page.css()
+    
     
     
     
