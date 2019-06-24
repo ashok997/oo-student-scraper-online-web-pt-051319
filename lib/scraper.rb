@@ -24,7 +24,7 @@ class Scraper
     profile_hash ={}
     
     binding.pry
-    page.css("div.main-wrapper.profile .social-icon-container a").each do |social|
+    page.css("div.main-wrapper.profile .sociexital-icon-container a").each do |social|
       if social.attribute("href").value.include?("twitter")
         profile_hash[:twitter] = social.attribute("href").value
       end
