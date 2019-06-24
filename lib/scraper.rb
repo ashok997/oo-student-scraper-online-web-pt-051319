@@ -27,7 +27,7 @@ class Scraper
     page.css("div.main-wrapper profile").each do |social|
     
     end
-    #page.css("div.main-wrapper.profile .social-icon-container a)
+    
     
     
     
