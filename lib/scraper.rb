@@ -32,7 +32,7 @@ class Scraper
         profile_hash[:github] = social.attribute("href").value
       else
         profile_hash[:blog] = social.attribute("href").value
-      end
+        end
       end
       profile_hash[:profile_quote] = page.css("div.profile-quote").text
       profile_hash[:bio] = page.css("div.description-holder p").text
