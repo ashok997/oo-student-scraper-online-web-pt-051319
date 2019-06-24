@@ -25,7 +25,7 @@ class Scraper
     
     binding.pry
     page.css("div.main-wrapper profile").each do social
-      binding.pry
+    
     end
     #page.css("div.main-wrapper.profile .social-icon-container a)
     
