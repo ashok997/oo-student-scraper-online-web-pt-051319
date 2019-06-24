@@ -31,7 +31,7 @@ class Scraper
       elsif social.attribute("href").value.include?("github")
         profile_hash[:github] = social.attribute("href").value
       else
-        profile_hash[:blog_ur] = social.attribute("href").value
+        profile_hash[:blog] = social.attribute("href").value
         end
       end
       profile_hash[:profile_quote] = page.css("div.profile-quote").text
